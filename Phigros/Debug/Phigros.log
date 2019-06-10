@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(992,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are lib\jsoncpp-src-0.5.0\src\jsontestrunner\main.cpp, lib\jsoncpp-src-0.5.0\src\test_lib_json\main.cpp, main.cpp.
+  main.cpp
+C:\Users\Chty_syq\source\repos\Phigros\lib\translate.hpp(26,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Chty_syq\source\repos\Phigros\lib\translate.hpp(27,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Chty_syq\source\repos\Phigros\lib\translate.hpp(27,18): warning C4244: C:\Users\Chty_syq\source\repos\Phigros\lib\translate.hpp(127) : warning C4715: “obj_list::load_map”: 不是所有的控件路径都返回值
+Debug\main.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+Debug\main.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  Phigros.vcxproj -> C:\Users\Chty_syq\source\repos\Phigros\Debug\Phigros.exe

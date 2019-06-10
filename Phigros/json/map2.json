@@ -1,0 +1,22 @@
+  [
+	  {"type": "fold_line1", "begin_time": "0:0:1800", "end_time": "0:0:3400", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(7.77cm,1.69cm)", "rotate": "0"}, 
+	  {"type": "fold_line3", "begin_time": "0:0:2400", "end_time": "0:0:4100", "begin_locate": "(15.76cm,10.79cm)", "end_locate": "(7.77cm,17.43cm)", "rotate": "0"}, 
+	  {"type": "fold_line2", "begin_time": "0:0:0600", "end_time": "0:0:2200", "begin_locate": "(18.12cm,8.27cm)", "end_locate": "(26.09cm,1.69cm)", "rotate": "0"}, 
+	  {"type": "fold_line4", "begin_time": "0:0:3900", "end_time": "0:0:5500", "begin_locate": "(18.12cm,10.79cm)", "end_locate": "(26.09cm,17.43cm)", "rotate": "0"}, 
+	  {"type": "fold_line4", "begin_time": "0:0:1200", "end_time": "0:0:2800", "begin_locate": "(18.12cm,10.79cm)", "end_locate": "(26.09cm,17.43cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:0:0000", "end_time": "0:0:1500", "begin_locate": "(15.76cm,10.79cm)", "end_locate": "(9.47cm,17.43cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:0:9300", "end_time": "0:1:0800", "begin_locate": "(15.76cm,10.79cm)", "end_locate": "(18.09cm,17.24cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:0:7800", "end_time": "0:0:9300", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(11.79cm,17.25cm)", "rotate": "0"}, 
+	  {"type": "segment_v", "begin_time": "0:0:7200", "end_time": "0:0:8700", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(7.77cm,9.48cm)", "rotate": "0"}, 
+	  {"type": "segment_v", "begin_time": "0:0:4800", "end_time": "0:0:6300", "begin_locate": "(18.12cm,8.33cm)", "end_locate": "(26.09cm,8.64cm)", "rotate": "0"}, 
+	  {"type": "segment_v", "begin_time": "0:0:4500", "end_time": "0:0:6000", "begin_locate": "(18.12cm,8.33cm)", "end_locate": "(26.09cm,8.64cm)", "rotate": "0"}, 
+	  {"type": "segment_v", "begin_time": "0:0:6600", "end_time": "0:0:8100", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(7.77cm,7.58cm)", "rotate": "0"}, 
+	  {"type": "segment_v", "begin_time": "0:0:6000", "end_time": "0:0:7500", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(7.77cm,5.67cm)", "rotate": "0"}, 
+	  {"type": "segment_v", "begin_time": "0:0:5400", "end_time": "0:0:6900", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(7.77cm,2.99cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:0:8400", "end_time": "0:0:9900", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(10.33cm,1.69cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:0:8700", "end_time": "0:1:0200", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(10.33cm,1.69cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:0:3000", "end_time": "0:0:4500", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(14.92cm,1.69cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:0:3300", "end_time": "0:0:4800", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(14.92cm,1.69cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:0:9900", "end_time": "0:1:1400", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(19.24cm,1.69cm)", "rotate": "0"}, 
+	  {"type": "segment_h", "begin_time": "0:1:0200", "end_time": "0:1:1700", "begin_locate": "(15.76cm,8.33cm)", "end_locate": "(19.24cm,1.69cm)", "rotate": "0"}
+  ]

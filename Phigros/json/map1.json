@@ -1,0 +1,114 @@
+[
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:0000",
+    "end_time": "0:0:1500",
+    "begin_locate": "(4.58cm,19cm)",
+    "end_locate": "(4.58cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:0400",
+    "end_time": "0:0:1900",
+    "begin_locate": "(6.98cm,19cm)",
+    "end_locate": "(6.98cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:0000",
+    "end_time": "0:0:1500",
+    "begin_locate": "(24.89cm,0cm)",
+    "end_locate": "(24.89cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:0600",
+    "end_time": "0:0:2100",
+    "begin_locate": "(19.79cm,0cm)",
+    "end_locate": "(19.79cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:1000",
+    "end_time": "0:0:2600",
+    "begin_locate": "(8.15cm,19cm)",
+    "end_locate": "(8.15cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:1300",
+    "end_time": "0:0:2900",
+    "begin_locate": "(9.12cm,19cm)",
+    "end_locate": "(9.12cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:1600",
+    "end_time": "0:0:3200",
+    "begin_locate": "(10.26cm,19cm)",
+    "end_locate": "(10.26cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:1900",
+    "end_time": "0:0:3500",
+    "begin_locate": "(12.44cm,19cm)",
+    "end_locate": "(12.44cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:2500",
+    "end_time": "0:0:4000",
+    "begin_locate": "(13.47cm,19cm)",
+    "end_locate": "(13.47cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:2800",
+    "end_time": "0:0:4300",
+    "begin_locate": "(14.57cm,19cm)",
+    "end_locate": "(14.57cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:3100",
+    "end_time": "0:0:4600",
+    "begin_locate": "(15.58cm,19cm)",
+    "end_locate": "(15.58cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:3400",
+    "end_time": "0:0:4900",
+    "begin_locate": "(16.73cm,0cm)",
+    "end_locate": "(16.73cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:3700",
+    "end_time": "0:0:5200",
+    "begin_locate": "(17.73cm,0cm)",
+    "end_locate": "(17.73cm,9.38cm)",
+    "rotate": "0"
+  },
+  {
+    "type": "segment_h",
+    "begin_time": "0:0:4000",
+    "end_time": "0:0:5500",
+    "begin_locate": "(30.94cm,0cm)",
+    "end_locate": "(30.94cm,9.38cm)",
+    "rotate": "0"
+  }
+]
