@@ -24,7 +24,7 @@ struct Line {
 	PIMAGE img;//元素图像
 }L[MAXN];
 
-class Interface {
+class Interface {  //类
 private:
 	int pos_Play[4] = { 457,287,542,362 };//Play键位置
 	int pos_Musi[4] = { 373,378,458,453 };//Misic键位置
@@ -158,6 +158,7 @@ private:
 		img[3] = newimage();  getimage(img[3], "img\\bad.png");
 		img[4] = newimage();  getimage(img[4], "img\\miss.png");
 		img[5] = newimage();  getimage(img[5], "img\\end.png");
+		img[6] = newimage();  getimage(img[6], "img\\face.png");
 		bpg[0] = newimage();  getimage(bpg[0], "img\\bgp1.png");
 		bpg[1] = newimage();  getimage(bpg[1], "img\\bgp2.png");
 		bpg[2] = newimage();  getimage(bpg[2], "img\\bgp3.png");
@@ -571,7 +572,7 @@ private:
 	void Test(int CASE) {
 		putimage(0, 0, bpg[CASE]);
 		for (int i = 1; i <= Lnum; ++i) {
-			Dnt posi = L[i].S;
+			Dnt posi = L[i].T;
 			putimage_transparent(NULL, L[i].img, posi.X, posi.Y, BLACK);
 			putimage_transparent(NULL, img[0], posi.X + L[i].dJ.X, posi.Y + L[i].dJ.Y, BLACK);
 			putjudge(posi.X + L[i].dA.X, posi.Y + L[i].dA.Y);
@@ -585,12 +586,14 @@ private:
 		return make_pair(x, y);
 	}
 	void Play(int CASE) {//动画制作
-		bool Mouse_Up = 0; int Time = 0, head = 1, tail = 0;
+		bool Mouse_Up = 0, Key_Up = 0; 
+		int  Time = 0, head = 1, tail = 0;
 		for (; is_run(); delay_fps(100), Time += 10) {
 			int x, y;
 			mousepos(&x, &y);//抓取鼠标坐标
 			while (mousemsg()) msg = getmouse();//抓取鼠标事件消息
 			if (msg.is_up())  Mouse_Up = 1;
+			if (!keystate(32))  Key_Up = 1;
 			cleardevice();
 			putimage(0, 0, bpg[CASE]);
 			xyprintf(60, 60, "得分：%d", score);
@@ -604,8 +607,9 @@ private:
 					putimage_transparent(NULL, img[0], posi.X + L[i].dJ.X, posi.Y + L[i].dJ.Y, BLACK);
 					int State = Judge(posi.X + L[i].dA.X, posi.Y + L[i].dA.Y, x, y);
 					putjudge(posi.X + L[i].dA.X, posi.Y + L[i].dA.Y);
-					if (State && msg.is_left() && msg.is_down()) {
+					if (State && (msg.is_left() && msg.is_down() || keystate(32) && Key_Up)) {
 						Mouse_Up = 0;
+						Key_Up = 0;
 						L[i].jud_Del = 1;
 						++sum[State];  ++tail;
 						q[tail].S = make_pair(700, 100);
@@ -614,8 +618,8 @@ private:
 						q[tail].et = Time + 200;
 						q[tail].State = State;
 						if (State == 1) score += 100;
-						else if (State == 2) score += 50;
-						else if (State == 3) score += 10;
+						else if (State == 2) score += 80;
+						else if (State == 3) score += 50;
 					}
 				}
 				if (L[i].judet < Time && !L[i].jud_Del) {
@@ -655,6 +659,9 @@ private:
 		xyprintf(W / 2 - 150, H / 2 + 125, "总分:");
 		xyprintf(W / 2 + 150, H / 2 + 125, "%d", score);
 	}
+	void Face() {
+		putimage_rotate(NULL, img[6], 100, 300, 0,0,1.57);
+	}
 public:
 	void Start() {
 		Init();
@@ -674,6 +681,7 @@ public:
 		Load_Map11();  Play(7);  Sleep(1000);
 		Load_Map12();  Play(8); Sleep(1000);
 		Report();
+		//Face();
 	}
 }Game_Play;
 
